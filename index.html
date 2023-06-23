@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mineros FC</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <h1></h1>
+   <p class="small-txt"></p>
+   <input type="checkbox" onclick="enableDarkMode()" id="check">
+
+   <button id="increaseFontBtn">Aumentar tamaño de fuente</button>
+   <button id="decreaseFontBtn">Reducir tamaño de fuente</button>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mineros SC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre Nosotros</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#haztesocio">Hazte socio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio" class="section">
+    <div class="container">
+      <img src="c:\Users\Jeimy\Downloads\Logo.Mineros.png" alt="" class="Logo">
+      <p class="titulo">Bienvenido al Club de Fútbol Mineros SC</p >
+    </div>
+  </section><br>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre Nosotros</h2><br>
+      <p>Mineros SC es un club que milita en la segunda divison profesional de futbol de Chile, el club se fundo el 2 de Agosto de 1995 y contamos con 3 titulos de tercera division, en la actualidad contamos con mas de 100 socios y abonados, y tu que esperas para hacerte socio!</p>
+    </div>
+  </section>
+  <img src="c:\Users\Jeimy\Downloads\istockphoto-619536602-612x612.jpg" alt="10px" class="gol">
+
+  <section id="equipo" class="section">
+    <div class="container">
+      <h2>Esta fue la formacion que nos dio la victoria en el clasico del norte!</h2><br>
+      <img src="c:\Users\Jeimy\Downloads\Football Team Lineup Design - Hecho con PosterMyWall (1).jpg" class="formacion"><br>
+    </div>
+  </section>
+
+  <section id="Hazte socio" class="section">
+    <div class="container">
+      <h1>Hazte socio</h1>
+      <p>¡Unete a este gran club asiendote socio!<p> 
+      <p>Si deseas hacerte socio completa el siguiente formulario</p>
+    </div>
+  </section>
+
+  <h1>FORMULARIO PARA SOCIOS</h1>
+    <form>
+        <label>NOMBRES</label><br>
+        <input type="text" id="nombres"><br>
+
+        <label>APELLIDOS</label><br>
+        <input type="text" id="apellidos"><br>
+
+        <label>FECHA NACIMIENTO</label><br>
+        <input type="date" id="fecha"><br>
+
+        <label>E-MAIL</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label>DIRECCION</label><br>
+        <input type="text" id="direccion"><br>
+
+        <label>FONO</label><br>
+        <input type="text" id="fono"><br>
+
+        <label>GENERO</label><br>
+        <input type="text" id="genero"><br>
+    
+        <label>OCUPACION</label><br>
+        <input type="text" id="ocupacion"><br><br>
+
+        <button type="button" id="btn">Registrar</button>
+        <span id="contenedorBtnExtra"></span>
+    </form><br>
+    <div id="contenedorTabla">
+
+    </div>
+    <script src="script.js"></script>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Derechos Reservados &copy; 2023 Mineros SC</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
